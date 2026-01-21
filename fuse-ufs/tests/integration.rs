@@ -114,9 +114,9 @@ where
 }
 
 struct Harness {
-	d:      TempDir,
-	child:  Child,
-	img:    PathBuf,
+	d: TempDir,
+	child: Child,
+	img: PathBuf,
 	delete: bool,
 }
 
